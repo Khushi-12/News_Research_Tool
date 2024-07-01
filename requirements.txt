@@ -1,0 +1,12 @@
+streamlit
+tiktoken
+transformers
+openai
+pandas
+numpy
+langchain
+langchain-community
+unstructured
+faiss-cpu
+sentence-transformers
+ 
