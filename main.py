@@ -63,6 +63,7 @@ query = loading_bar.text_input("Question: ")
 st.header(query)
 
 if query:
+    
     agent = QuestionAnsweringAgent()
     answer = agent.generate_answer(query)
     st.header("Answer")

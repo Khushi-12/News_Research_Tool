@@ -71,6 +71,8 @@ class QuestionAnsweringAgent:
             'context': context
         }
         result = self.qa_pipeline(qa_input)
+        if result['score'] < 0.1:  # Threshold can be adjusted
+            return "No relevant information found for your query."
         return result['answer']
 
 # Example usage
