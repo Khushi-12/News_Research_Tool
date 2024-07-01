@@ -34,11 +34,10 @@ This project is a News Research Tool that allows users to input URLs of news art
     ```
 
 ### Directory Structure
-news-research-tool/
-│
-├── model.py # Contains the QuestionAnsweringAgent class
-├── app.py # Main Streamlit application file
-├── requirements.txt # Required Python packages
+news-research-tool\ \
+├── model.py # Contains the QuestionAnsweringAgent class\
+├── app.py # Main Streamlit application file\
+├── requirements.txt # Required Python packages\
 └── README.md # This readme file
 
 ### Usage
